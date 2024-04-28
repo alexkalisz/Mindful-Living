@@ -25,7 +25,7 @@ h1 {
 
 /* Header */
 header {
-    background-color: #E5FAEE;
+    background-color: white;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
@@ -34,7 +34,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    height: 90px;
+   
 
 }
 
@@ -49,10 +49,13 @@ h1 {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
+    padding-right: 30px;
+    
 }
 
 #menu>li {
     margin-bottom: 1em;
+    ;
 }
 
 .active {
@@ -81,13 +84,16 @@ nav {
 #nav-toggle:checked~nav {
     display: block;
 }
+#nav-toggle {
+    display: none;
+}
 
 /* Main content */
 main {
     background-color: #E6E6FA;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 90px;
+    margin-top: 100px;
 
 }
 
@@ -96,3 +102,19 @@ footer {
     background-color: #FFE5B4;
 
 }
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+    #menu {
+        display: flex;
+    }
+    #menu > li {
+        padding-left: 2rem;
+    }
