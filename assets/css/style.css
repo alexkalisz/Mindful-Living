@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald:wght@200;300;400;500;600;700&display=swap');
 
 
-/* Asterisk wildcard selector to override default styles added by the browser */ 
+/* Asterisk wildcard selector to override default styles added by the browser */
 * {
     padding: 0;
     margin: 0;
@@ -35,7 +35,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-   
+
 
 }
 
@@ -46,12 +46,37 @@ h1 {
     color: #252525;
 }
 
+h2 {
+    color: #252525;
+}
+
+h3 {
+    color: white;
+}
+
+#cover-text {
+    background-color: rgba(255, 229, 180, 0.7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 50%;
+    min-height: 150px;
+    padding-top: 20px;
+    padding-left: 10px;
+
+    body {
+        font-family: 'Open Sans', sans-serif;
+    }
+
+}
+
+
 #menu {
     font-size: 110%;
     letter-spacing: 4px;
     list-style-type: none;
-    
-    
+
+
 }
 
 #menu>li {
@@ -67,6 +92,7 @@ header a {
     text-decoration: none;
     color: inherit;
 }
+
 nav {
     position: absolute;
     background-color: #ffffff;
@@ -77,14 +103,18 @@ nav {
     display: none;
     top: 100%;
 }
+
 /* Add margin between the symbol and text */
 #logo img {
-    margin-right: 10px; 
+    margin-right: 10px;
+
 }
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
+
 #nav-toggle {
     display: none;
 }
@@ -96,12 +126,13 @@ nav {
 
 /* Main content */
 main {
-   
+
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-   
+
 }
+
 /* Hero section*/
 #hero {
     height: 800px;
@@ -114,6 +145,7 @@ footer {
     background-color: #FFE5B4;
 
 }
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
@@ -121,6 +153,7 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
@@ -130,6 +163,7 @@ footer {
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -138,16 +172,19 @@ footer {
         width: fit-content;
         padding-right: 1rem;
     }
+
     #menu {
         display: flex;
     }
-    #menu > li {
+
+    #menu>li {
         padding-left: 2rem;
     }
+
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 280%;
         line-height: 75px;
@@ -159,9 +196,10 @@ footer {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
+
     /* Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover{
-        border-bottom: 1px solid #3a3a3a;
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 1px solid #3a3a3a;
+        }
     }
-}
