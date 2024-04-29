@@ -196,7 +196,7 @@ h3{
     /* Creates a grid of meetup time divs over the background image */
     border: 2px solid white;
 }
-/* Morning Meditation*/
+/* Morning Meditation Schedule*/
 
 #morning-meditation {
     position: relative;
@@ -219,7 +219,7 @@ h3{
     height: 100%;
 }
 
-/* Evening Mindful Walk */
+/* Evening Mindful Walk Schedule*/
 #evening-mindful-walk {
     position: relative;
     width: 300px;
@@ -242,7 +242,7 @@ h3{
 }
 
 
-/* Sunrise Yoga */
+/* Sunrise Yoga Schedule*/
 
 #sunrise-yoga {
     position: relative;
@@ -265,7 +265,7 @@ h3{
     height: 100%; 
 }
 
-/* Afternoon Yoga Retreat */
+/* Afternoon Yoga Retreat Schedule*/
 
 #afternoon-yoga-retreat {
     position: relative;
@@ -288,7 +288,7 @@ h3{
     height: 100%;
 }
 
-/* Beach side yoga */
+/* Beach side yoga Schedule*/
 #beachside-yoga {
     position: relative;
     width: 300px;
