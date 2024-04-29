@@ -46,7 +46,7 @@ h1 {
     color: #252525;
 }
 
-h2 {
+#cover-text h2 {
     color: #252525;
 }
 
@@ -58,10 +58,10 @@ h2 {
     background-color: rgba(255, 229, 180, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 30px;
+    bottom: 200px;
     width: 60%;
-    min-height: 120px;
-    padding-top: 20px;
+    min-height: 150px;
+    padding-top: 40px;
     padding-left: 10px;
 
     body {
@@ -107,7 +107,11 @@ nav {
 /* Add margin between the symbol and text */
 #logo img {
     margin-right: 10px;
-
+}
+#logo {
+    display: flex;
+    align-items: center;
+    
 }
 
 /* Nav toggle */
@@ -138,6 +142,35 @@ main {
     height: 800px;
     width: 100%;
     background: url(../images/hero-image.jpeg)no-repeat center center/cover;
+}
+/* Reasons section */
+
+
+ h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+    text-transform: uppercase;
+    color:#A77904;
+}
+
+ h3{
+    text-transform: uppercase;
+    
+}
+#benefits-physical > div,
+#benefits-mental > div {
+    line-height: 20px;
+    margin-bottom: 30px;
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 10px 0;
 }
 
 
@@ -204,37 +237,9 @@ footer {
         bottom: 200px;
 
     }
-    #hero {
-        height: 1250px;
-        width: 100%;
-    }
+    
 
-/* Reasons section */
-#reasons {
-    width: 90%;
-    margin: 20px auto;
-}
 
-#reasons h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 280%;
-}
-
-#benefits-physical > div,
-#benefits-mental > div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#benefits p {
-    padding: 0 20px;
-}
-
-#benefits hr {
-    border-top: 1px solid #3a3a3a;
-    margin: 5px 0;
-}
     /* Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
         #menu a:hover {
