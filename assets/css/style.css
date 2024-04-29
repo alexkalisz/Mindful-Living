@@ -186,6 +186,133 @@ h3{
     align-items: center;
     justify-content: center;
 }
+#times{
+    display: flex;
+    flex-wrap: wrap;
+}
+#times div{
+    flex-basis: 200px;
+    flex-grow: 1;
+    /* Creates a grid of meetup time divs over the background image */
+    border: 2px solid white;
+}
+/* Morning Meditation*/
+
+#morning-meditation {
+    position: relative;
+    width: 300px;
+}
+#morning-meditation .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/morning-meditation.png') no-repeat center/cover;
+    opacity: 0.4;
+}
+#morning-meditation .content {
+    padding: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    height: 100%;
+}
+
+/* Evening Mindful Walk */
+#evening-mindful-walk {
+    position: relative;
+    width: 300px;
+}
+#evening-mindful-walk .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/evening-walk.webp') no-repeat center/cover;
+    opacity: 0.4;
+}
+#evening-mindful-walk .content {
+    padding: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    height: 100%;
+}
+
+
+/* Sunrise Yoga */
+
+#sunrise-yoga {
+    position: relative;
+    width: 300px;
+}
+#sunrise-yoga .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/sunrise-yoga.jpeg') no-repeat center/cover;
+    opacity: 0.4;
+}
+#sunrise-yoga .content {
+    padding: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;  
+    height: 100%; 
+}
+
+/* Afternoon Yoga Retreat */
+
+#afternoon-yoga-retreat {
+    position: relative;
+    width: 300px;
+}
+#afternoon-yoga-retreat .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/afternoon-yoga-retreat.jpeg') no-repeat center/cover;
+    opacity: 0.4;
+}
+#afternoon-yoga-retreat .content {
+    padding: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .8);
+    text-align: center;
+    height: 100%;
+}
+
+/* Beach side yoga */
+#beachside-yoga {
+    position: relative;
+    width: 300px;
+}
+
+#beachside-yoga .background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../images/beachside-yoga.png') no-repeat center/cover;
+    opacity: 0.4; 
+}
+
+#beachside-yoga .content {
+   
+    padding: 10px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, .9);
+    text-align: center;
+    height: 100%;
+    
+}
 
 
 /* Footer */
