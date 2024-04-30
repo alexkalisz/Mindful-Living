@@ -54,6 +54,7 @@ h1 {
 
 #cover-text h3 {
     color: white;
+  
 }
 
 #cover-text {
@@ -66,8 +67,8 @@ h1 {
     padding-top: 40px;
     padding-left: 10px;
 
-    body { 
-        font-family: 'Open Sans', sans-serif; 
+    body {
+        font-family: 'Open Sans', sans-serif;
     }
 
 }
@@ -108,7 +109,7 @@ nav {
 
 /* Add margin between the symbol and text */
 #logo img {
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 #logo {
@@ -148,7 +149,9 @@ main {
 
 /* Reasons section */
 
-
+#reasons h2{
+    margin-top: 2%;
+}
 h2 {
     margin-bottom: 20px;
     text-align: center;
@@ -160,12 +163,16 @@ h2 {
 h3 {
     text-transform: uppercase;
 
-
+}
+#cover-text h2,h3{
+    text-align: center;
 }
 
 #benefits-mental>div,
 #benefits-physical>div {
     line-height: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     margin-bottom: 20px;
 }
 
@@ -377,7 +384,9 @@ h3 {
 }
 
 /* Mindfulness Techniques*/
-
+#mindfulness{
+    margin-top: 5%;
+}
 
 #yoga-tech,
 #mindful-walking-tech,
@@ -390,8 +399,8 @@ h3 {
     background-color: #efe2c0;
     text-align: center;
     padding: 2%;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     margin-left: 2%;
     margin-right: 2%
 }
@@ -418,25 +427,36 @@ h3 {
 
 }
 
+
+
+/* Video Responsive Frames */
+.responsive-iframe {
+    position: relative;
+    width: 100%;
+    padding-top: 5%;
+}
+
+
+
 /* Footer */
 footer {
     background-color: #FFE5B4;
 }
 
 
-    #social-networks {
-        text-align: center;
-        padding: 20px 0;
-        display: flex;
-        justify-content: space-evenly;
-        list-style-type: none;
-    }
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
 
-    #social-networks i {
-        font-size: 160%;
-        padding: 5%;
-        color: #3a3a3a;
-    }
+#social-networks i {
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+}
 
 
 
@@ -472,6 +492,8 @@ footer {
 
 
     /* Main content */
+
+   
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
@@ -505,6 +527,35 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Mindfulness Techniques*/
+
+
+    #mindfulness{
+        margin-top: 10%;
+    }
+    #yoga-tech,
+    #mindful-walking-tech,
+    #mindful-eating,
+    #body-scan-tech,
+    #breath-awarness-tech,
+    #mindful-eating-tech {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #efe2c0;
+        text-align: center;
+        padding: 2%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 15%;
+        margin-right: 15%
+    }
+
+    .responsive-iframe {
+        position: relative;
+        width: 60%;
+        padding-top: 5%;
+    }
 }
 
 
@@ -534,5 +585,33 @@ footer {
 
     #benefits-physical>div {
         align-self: flex-end;
+    }
+
+    /* Mindfulness Techniques*/
+    #mindfulness{
+        margin-top: 5%;
+    }
+
+    #yoga-tech,
+    #mindful-walking-tech,
+    #mindful-eating,
+    #body-scan-tech,
+    #breath-awarness-tech,
+    #mindful-eating-tech {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #efe2c0;
+        text-align: center;
+        padding: 2%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30%;
+        margin-right: 30%
+    }
+
+    .responsive-iframe {
+        position: relative;
+        width: 50%;
+        padding-top: 5%;
     }
 }
