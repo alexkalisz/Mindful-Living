@@ -58,9 +58,10 @@ This section explores our instructional videos covering key mindfulness practice
 This section offers an effortless pathway to begin your mindfulness, yoga, or guided walk journey. With just a few clicks, you can indicate your interest in any of these activities and join our vibrant community. Simply select your preferred activity - whether it's delving into mindfulness practices, exploring the nuances of yoga, or enjoying mindful walks in nature. User must provide your full name and email address to complete the sign-up process.
 
 
-¡[Signup](https://github.com/alexkalisz/Mindful-Living/blob/main/signup.html)
+[Signup]()
 
 ### Testing
+
 - Page tested and works in browser Chrome, Firefox, Safari, Brave
 - Pages are responsive and functional on all screen sizes using dev tool bar
 - Navigation header, footer, sing up , videos in Technique Lessons section  are readable and easy to navigate.
