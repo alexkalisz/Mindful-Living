@@ -44,7 +44,7 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 This section introduces mindfulness as the practice of being present in the moment without judgment. It explains the concept of paying attention to thoughts, feelings, sensations, and the environment with openness and curiosity, leading to greater awareness and resilience in facing life's challenges.
 The page explores different ways of mindful breathing, body scan, techniques, Mindful Walking and Yoga practices techniques.
 
-![Practices]([https://github.com/alexkalisz/Mindful-Living/blob/main/yoga%20poses.png)
+![Practices](https://github.com/alexkalisz/Mindful-Living/blob/main/practices.png)
 
 ### Technique Lessons
 
@@ -53,7 +53,9 @@ This section explores our instructional videos covering key mindfulness practice
 ![Lessons](https://github.com/alexkalisz/Mindful-Living/blob/main/yoga%20poses.png)
 
 
+### Signup
 
+This section offers an effortless pathway to begin your mindfulness, yoga, or guided walk journey. With just a few clicks, you can indicate your interest in any of these activities and join our vibrant community. Simply select your preferred activity - whether it's delving into mindfulness practices, exploring the nuances of yoga, or enjoying mindful walks in nature. User must provide your full name and email address to complete the sign-up process.
 
 
 
