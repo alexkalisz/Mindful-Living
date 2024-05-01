@@ -20,15 +20,15 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 ### Landing Page
 - Eye-catching photograph with text overlay showcasing relevant locations.
 
-  
+![Landing Page](https://github.com/alexkalisz/Mindful-Living/blob/main/landing%20image.png)  
 
-### Club Ethos Section
-- Highlights the benefits of joining Love Running meetups and overall running benefits.
-- Encourages users to consider running as their primary form of exercise.
+### The Benefits Section
+- Highlights the benefits of joining Mindfulness and Yoga practices.
+- Encourages users to consider mindfilness as a way of life.
 
 ### Meetup Times Section
-- Displays meetup schedules, locations, and run distances.
-- Keeps users updated with any changes in meetup times
+- Displays meetup schedules and locations.
+- Keeps users informed.
 
 ###
 
@@ -36,7 +36,7 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 
 
 ### Footer
-- Includes links to Love Running's social media profiles for easy connectivity.
+- Includes links to Mindful Living social media profiles for easy connectivity.
 - Encourages users to stay connected and engaged.
 
 
