@@ -59,11 +59,12 @@ h1 {
     background-color: rgba(255, 229, 180, 0.7);
     font-size: 130%;
     position: absolute;
-    bottom: 200px;
+    top: 600px;
     width: 80%;
     min-height: 150px;
-    padding-top: 40px;
+    padding-top: 20px;
     padding-left: 10px;
+    padding-bottom: 20px;
 
 
     body {
@@ -558,14 +559,6 @@ footer {
 
     }
 
-    /* Hero */
-    #cover-text {
-        width: 300px;
-        right: 50px;
-        bottom: 200px;
-
-    }
-
     /* Reasons section */
     #benefits-physical,
     #benefits-mental {
@@ -585,6 +578,20 @@ footer {
         text-align: end;
         align-self: flex-end;
     }
+
+    /* Hero*/
+
+    #cover-text {
+        background-color: rgba(255, 229, 180, 0.7);
+        font-size: 130%;
+        position: absolute;
+        top: 600px;
+        width: 40%;
+        min-height: 150px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+
 
     /* Mindfulness Techniques*/
 
@@ -615,11 +622,9 @@ footer {
         width: 60%;
         padding-top: 5%;
     }
-
-
-
-
 }
+
+
 
 @media screen and (min-width: 1200px) {
 
@@ -654,6 +659,21 @@ footer {
         margin-top: 5%;
     }
 
+    /* Hero*/
+
+    #cover-text {
+        background-color: rgba(255, 229, 180, 0.7);
+        font-size: 130%;
+        position: absolute;
+        top: 600px;
+        width: 40%;
+        min-height: 150px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+
     #yoga-tech,
     #mindful-walking-tech,
     #mindful-eating,
@@ -676,6 +696,7 @@ footer {
         width: 50%;
         padding-top: 5%;
     }
+
     #signup {
         background-image: url("../images/keel-beach.jpeg");
         padding: 30px 30% 0 30%;
