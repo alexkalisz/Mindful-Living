@@ -390,6 +390,9 @@ h3 {
 #mindful-breathing-techniques h3 {
     color: #050505;
 }
+#yoga h2,h3{
+    color: #050505;
+}
 
 
 /* Mindfulness Techniques*/
@@ -560,7 +563,7 @@ footer {
 
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 150px;
 
     }
 
@@ -624,14 +627,23 @@ footer {
 
         .responsive-iframe {
             position: relative;
-            width: 60%;
+            width: 50%;
             padding-top: 5%;
+            padding-left: 10%;
         }
+        
+        
+        
     }
 
 
 
     @media screen and (min-width: 1200px) {
+        main {
+            /* Push main content down to accommodate larger header */
+            margin-top: 100px;
+    
+        }
 
         /* Reasons section */
         #benefits {
@@ -708,4 +720,5 @@ footer {
             flex-grow: 1;
             margin-top: 0;
         }
+        
     }
