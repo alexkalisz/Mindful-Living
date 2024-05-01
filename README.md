@@ -88,7 +88,7 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 The codes to create this project were taken from Love Running project
 
 ### Media
-- The images were downloaded from Tripadvisor and Pexels
+- The images used are Open Source images
 
 
   
