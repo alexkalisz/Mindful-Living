@@ -504,6 +504,16 @@ main {
     color: #000000;
 }
 
+#morning-meditation h3, 
+#evening-mindful-walk h3,
+#sunrise-yoga h3,
+#afternoon-yoga-retreat h3,
+#beachside-yoga h3{
+    color: white;
+}
+
+
+
 
 /* Footer */
 footer {
@@ -627,7 +637,7 @@ footer {
 
         .responsive-iframe {
             position: relative;
-            width: 50%;
+            width: 40%;
             padding-top: 5%;
             padding-left: 10%;
         }
