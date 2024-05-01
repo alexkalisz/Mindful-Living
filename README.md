@@ -6,3 +6,5 @@ Mindful Living is a digital platform designed to guide individuals on a journey 
 By offering valuable insights, instructional videos, and expert guidance, Mindful Living empowers users to embark on a journey of self-discovery and personal growth. Whether you're a beginner exploring mindfulness for the first time or an experienced practitioner looking to deepen your practice, our project serves as a supportive and inclusive community dedicated to fostering holistic well-being and inner peace.
 
 
+![Laptop View](https://github.com/alexkalisz/Mindful-Living/raw/main/Laptop%20View.png)
+
