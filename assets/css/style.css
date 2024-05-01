@@ -109,10 +109,10 @@ nav {
 }
 
 
+
 #logo {
     display: flex;
     align-items: center;
-
 }
 
 /* Nav toggle */
@@ -386,7 +386,9 @@ h3 {
 #mindful-breathing-techniques h3 {
     color: #050505;
 }
-#yoga h2,h3{
+
+#yoga h2,
+h3 {
     color: #050505;
 }
 
@@ -449,9 +451,10 @@ main {
 /* Video Responsive Frames */
 .responsive-iframe {
     position: relative;
-    width: 100%;
-    padding-top: 5%;
-}
+    width: 90%;
+    height: 90%;
+    padding-bottom: 0;
+    padding-top: 0;
 
 /* Sign Up Form */
 
@@ -500,11 +503,11 @@ main {
     color: #000000;
 }
 
-#morning-meditation h3, 
+#morning-meditation h3,
 #evening-mindful-walk h3,
 #sunrise-yoga h3,
 #afternoon-yoga-retreat h3,
-#beachside-yoga h3{
+#beachside-yoga h3 {
     color: white;
 }
 
@@ -603,42 +606,44 @@ footer {
         padding-top: 20px;
         padding-left: 10px;
         padding-bottom: 20px;
-
-
-        /* Mindfulness Techniques*/
-
-
-        #mindfulness {
-            margin-top: 10%;
-        }
-
-        #yoga-tech,
-        #mindful-walking-tech,
-        #mindful-eating,
-        #body-scan-tech,
-        #breath-awarness-tech,
-        #mindful-eating-tech {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            background-color: #efe2c0;
-            text-align: center;
-            padding: 2%;
-            margin-top: 30px;
-            margin-bottom: 30px;
-            margin-left: 15%;
-            margin-right: 15%
-        }
-
-        .responsive-iframe {
-            position: relative;
-            width: 40%;
-            padding-top: 5%;
-            padding-left: 10%;
-        }
-        
-        
-        
     }
+
+    /* Mindfulness Techniques*/
+
+
+    #mindfulness {
+        margin-top: 10%;
+    }
+
+    #yoga-tech,
+    #mindful-walking-tech,
+    #mindful-eating,
+    #body-scan-tech,
+    #breath-awarness-tech,
+    #mindful-eating-tech {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #efe2c0;
+        text-align: center;
+        padding: 2%;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        margin-left: 25%;
+        margin-right: 25%
+    }
+    .responsive-iframe {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding-bottom: 0;
+        padding-top: 0;
+
+    
+        
+
+
+
+
 
 
 
@@ -646,7 +651,7 @@ footer {
         main {
             /* Push main content down to accommodate larger header */
             margin-top: 100px;
-    
+
         }
 
         /* Reasons section */
@@ -715,7 +720,9 @@ footer {
         .responsive-iframe {
             position: relative;
             width: 50%;
-            padding-top: 5%;
+            height: 50%;
+            padding-bottom: 0;
+            padding-top: 0;  
         }
 
         #signup {
@@ -724,5 +731,5 @@ footer {
             flex-grow: 1;
             margin-top: 0;
         }
-        
+
     }
