@@ -77,7 +77,17 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 - CSS -  No errors were returned when passing official (Jigsaw) validator
 - Accesibility - Colors and Fonts chosen are easy to read and accesible by running through lighthouse in devtools
 
+![Performance](https://github.com/alexkalisz/Mindful-Living/blob/main/performance.png)
 
+
+### Unfixed bugs
+  No unfixed bugs
+
+### Credits
+The codes to create this project were taken from Love Running project
+
+### Media
+- The images were downloaded from Tripadvisor and Pexels
 
 
   
