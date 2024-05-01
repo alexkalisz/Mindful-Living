@@ -455,6 +455,7 @@ main {
     height: 90%;
     padding-bottom: 0;
     padding-top: 0;
+}
 
 /* Sign Up Form */
 
@@ -469,6 +470,7 @@ main {
     color: #000000;
     background-color: rgba(239, 226, 192, 1);
     padding: 30px;
+
 
 }
 
@@ -531,6 +533,7 @@ footer {
     padding: 5%;
     color: #3a3a3a;
 }
+
 
 
 
@@ -631,105 +634,108 @@ footer {
         margin-left: 25%;
         margin-right: 25%
     }
+
     .responsive-iframe {
         position: relative;
         width: 50%;
         height: 50%;
         padding-bottom: 0;
         padding-top: 0;
+    }
 
-    
-        
-
-
+}
 
 
 
 
 
-    @media screen and (min-width: 1200px) {
-        main {
-            /* Push main content down to accommodate larger header */
-            margin-top: 100px;
-
-        }
-
-        /* Reasons section */
-        #benefits {
-            display: flex;
-            flex-direction: row;
-        }
-
-        #benefits>div {
-            flex: 1;
-        }
-
-        #benefits-image {
-            order: 0
-        }
-
-        #benefits-mental {
-            order: 1;
-        }
-
-        #benefits-mental>div {
-            align-self: flex-start;
-        }
-
-        #benefits-physical>div {
-            align-self: flex-end;
-        }
-
-        /* Mindfulness Techniques*/
-        #mindfulness {
-            margin-top: 5%;
-        }
-
-        /* Hero*/
-
-        #cover-text {
-            background-color: rgba(255, 229, 180, 0.7);
-            font-size: 130%;
-            position: absolute;
-            top: 600px;
-            width: 40%;
-            min-height: 150px;
-            padding-top: 20px;
-            padding-left: 10px;
-            padding-bottom: 20px;
-        }
 
 
-        #yoga-tech,
-        #mindful-walking-tech,
-        #mindful-eating,
-        #body-scan-tech,
-        #breath-awarness-tech,
-        #mindful-eating-tech {
-            border: 1px solid #ccc;
-            border-radius: 8px;
-            background-color: #efe2c0;
-            text-align: center;
-            padding: 2%;
-            margin-top: 50px;
-            margin-bottom: 50px;
-            margin-left: 30%;
-            margin-right: 30%
-        }
-
-        .responsive-iframe {
-            position: relative;
-            width: 50%;
-            height: 50%;
-            padding-bottom: 0;
-            padding-top: 0;  
-        }
-
-        #signup {
-            background-image: url("../images/keel-beach.jpeg");
-            padding: 30px 30% 0 30%;
-            flex-grow: 1;
-            margin-top: 0;
-        }
+@media screen and (min-width: 1200px) {
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 100px;
 
     }
+
+    /* Reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
+        flex: 1;
+    }
+
+    #benefits-image {
+        order: 0
+    }
+
+    #benefits-mental {
+        order: 1;
+    }
+
+    #benefits-mental>div {
+        align-self: flex-start;
+    }
+
+    #benefits-physical>div {
+        align-self: flex-end;
+    }
+
+    /* Mindfulness Techniques*/
+    #mindfulness {
+        margin-top: 5%;
+    }
+
+    /* Hero*/
+
+    #cover-text {
+        background-color: rgba(255, 229, 180, 0.7);
+        font-size: 130%;
+        position: absolute;
+        top: 600px;
+        width: 40%;
+        min-height: 150px;
+        padding-top: 20px;
+        padding-left: 10px;
+        padding-bottom: 20px;
+    }
+
+
+    #yoga-tech,
+    #mindful-walking-tech,
+    #mindful-eating,
+    #body-scan-tech,
+    #breath-awarness-tech,
+    #mindful-eating-tech {
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        background-color: #efe2c0;
+        text-align: center;
+        padding: 2%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        margin-left: 30%;
+        margin-right: 30%
+    }
+
+    .responsive-iframe {
+        position: relative;
+        width: 50%;
+        height: 50%;
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    #signup {
+        background-image: url("../images/keel-beach.jpeg");
+        padding: 40px 30% 0 40%;
+        flex-grow: 1;
+        margin-top: 0;
+       
+    }
+    
+
+}
