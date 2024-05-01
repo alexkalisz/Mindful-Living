@@ -13,11 +13,14 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 
 ### Navigation Bar
 - Featured on all pages for easy navigation.
-- Links to the Home page, Gallery, and Sign Up page.
+- Links to the Home page, Mondfilness Practices, Tecjnique Lessons and Sign Up page.
+
+![Navigation Bar](https://github.com/alexkalisz/Mindful-Living/blob/main/navigation%20bar.png)
 
 ### Landing Page
 - Eye-catching photograph with text overlay showcasing relevant locations.
-- Introduces users to Love Running with an attention-grabbing animation.
+
+  
 
 ### Club Ethos Section
 - Highlights the benefits of joining Love Running meetups and overall running benefits.
