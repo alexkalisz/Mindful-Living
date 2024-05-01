@@ -26,6 +26,7 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 - Highlights the benefits of joining Mindfulness and Yoga practices.
 - Encourages users to consider mindfilness as a way of life.
 
+![Benefits Section]()
 ### Meetup Times Section
 - Displays meetup schedules and locations.
 - Keeps users informed.
