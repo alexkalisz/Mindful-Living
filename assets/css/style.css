@@ -371,7 +371,7 @@ h3 {
 #yoga h2,
 #mindfulness-yoga h2 {
     font-size: 24px;
-    color: #333;
+    color: #050505;
     margin-bottom: 5px;
 }
 
@@ -383,9 +383,14 @@ h3 {
 #yoga p,
 #mindfulness-yoga p {
     font-size: 16px;
-    color: #666;
+    color: #050505;
 
 }
+
+#mindful-breathing-techniques h3 {
+    color: #050505;
+}
+
 
 /* Mindfulness Techniques*/
 #mindfulness {
@@ -416,7 +421,7 @@ h3 {
 #yoga-tech h2,
 #mindful-eating-tech h2 {
     font-size: 24px;
-    color: #333;
+    color: #050505;
     margin-bottom: 5px;
 }
 
@@ -427,7 +432,7 @@ h3 {
 #mindful-eating-tech p,
 #yoga-tech p {
     font-size: 16px;
-    color: #666;
+    color: #050505;
 
 }
 
@@ -593,114 +598,114 @@ footer {
         padding-bottom: 20px;
 
 
-    /* Mindfulness Techniques*/
+        /* Mindfulness Techniques*/
 
 
-    #mindfulness {
-        margin-top: 10%;
-    }
+        #mindfulness {
+            margin-top: 10%;
+        }
 
-    #yoga-tech,
-    #mindful-walking-tech,
-    #mindful-eating,
-    #body-scan-tech,
-    #breath-awarness-tech,
-    #mindful-eating-tech {
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        background-color: #efe2c0;
-        text-align: center;
-        padding: 2%;
-        margin-top: 30px;
-        margin-bottom: 30px;
-        margin-left: 15%;
-        margin-right: 15%
-    }
+        #yoga-tech,
+        #mindful-walking-tech,
+        #mindful-eating,
+        #body-scan-tech,
+        #breath-awarness-tech,
+        #mindful-eating-tech {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #efe2c0;
+            text-align: center;
+            padding: 2%;
+            margin-top: 30px;
+            margin-bottom: 30px;
+            margin-left: 15%;
+            margin-right: 15%
+        }
 
-    .responsive-iframe {
-        position: relative;
-        width: 60%;
-        padding-top: 5%;
-    }
-}
-
-
-
-@media screen and (min-width: 1200px) {
-
-    /* Reasons section */
-    #benefits {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #benefits>div {
-        flex: 1;
-    }
-
-    #benefits-image {
-        order: 0
-    }
-
-    #benefits-mental {
-        order: 1;
-    }
-
-    #benefits-mental>div {
-        align-self: flex-start;
-    }
-
-    #benefits-physical>div {
-        align-self: flex-end;
-    }
-
-    /* Mindfulness Techniques*/
-    #mindfulness {
-        margin-top: 5%;
-    }
-
-    /* Hero*/
-
-    #cover-text {
-        background-color: rgba(255, 229, 180, 0.7);
-        font-size: 130%;
-        position: absolute;
-        top: 600px;
-        width: 40%;
-        min-height: 150px;
-        padding-top: 20px;
-        padding-left: 10px;
-        padding-bottom: 20px;
+        .responsive-iframe {
+            position: relative;
+            width: 60%;
+            padding-top: 5%;
+        }
     }
 
 
-    #yoga-tech,
-    #mindful-walking-tech,
-    #mindful-eating,
-    #body-scan-tech,
-    #breath-awarness-tech,
-    #mindful-eating-tech {
-        border: 1px solid #ccc;
-        border-radius: 8px;
-        background-color: #efe2c0;
-        text-align: center;
-        padding: 2%;
-        margin-top: 50px;
-        margin-bottom: 50px;
-        margin-left: 30%;
-        margin-right: 30%
-    }
 
-    .responsive-iframe {
-        position: relative;
-        width: 50%;
-        padding-top: 5%;
-    }
+    @media screen and (min-width: 1200px) {
 
-    #signup {
-        background-image: url("../images/keel-beach.jpeg");
-        padding: 30px 30% 0 30%;
-        flex-grow: 1;
-        margin-top: 0;
+        /* Reasons section */
+        #benefits {
+            display: flex;
+            flex-direction: row;
+        }
+
+        #benefits>div {
+            flex: 1;
+        }
+
+        #benefits-image {
+            order: 0
+        }
+
+        #benefits-mental {
+            order: 1;
+        }
+
+        #benefits-mental>div {
+            align-self: flex-start;
+        }
+
+        #benefits-physical>div {
+            align-self: flex-end;
+        }
+
+        /* Mindfulness Techniques*/
+        #mindfulness {
+            margin-top: 5%;
+        }
+
+        /* Hero*/
+
+        #cover-text {
+            background-color: rgba(255, 229, 180, 0.7);
+            font-size: 130%;
+            position: absolute;
+            top: 600px;
+            width: 40%;
+            min-height: 150px;
+            padding-top: 20px;
+            padding-left: 10px;
+            padding-bottom: 20px;
+        }
+
+
+        #yoga-tech,
+        #mindful-walking-tech,
+        #mindful-eating,
+        #body-scan-tech,
+        #breath-awarness-tech,
+        #mindful-eating-tech {
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #efe2c0;
+            text-align: center;
+            padding: 2%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            margin-left: 30%;
+            margin-right: 30%
+        }
+
+        .responsive-iframe {
+            position: relative;
+            width: 50%;
+            padding-top: 5%;
+        }
+
+        #signup {
+            background-image: url("../images/keel-beach.jpeg");
+            padding: 30px 30% 0 30%;
+            flex-grow: 1;
+            margin-top: 0;
+        }
     }
-}
