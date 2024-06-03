@@ -65,7 +65,7 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 ### Testing
 
 - Page tested and works in browser Chrome, Firefox, Safari, Brave Browsers
-- Pages are responsive and functional on all screen sizes using dev tool bar
+- Pages are responsive and functional on all screen sizes using dev tool bar.
 - Navigation header, footer, sing up , videos in Technique Lessons section  are readable and easy to navigate.
 - Sign up form requites entry in all fields  and email field accepts only email address.
 
