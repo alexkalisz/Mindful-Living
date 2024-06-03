@@ -22,11 +22,13 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 
 ![Landing Page](https://github.com/alexkalisz/Mindful-Living/blob/main/landing%20image.png)  
 
+
 ### The Benefits Section
 - Highlights the benefits of joining Mindfulness and Yoga practices.
 - Encourages users to consider mindfilness as a way of life.
 
 ![Benefits Section](https://github.com/alexkalisz/Mindful-Living/blob/main/Benefits%20Section.png)
+
 
 ### Meetup Times Section
 - Displays meetup schedules and locations.
