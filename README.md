@@ -6,7 +6,7 @@ Mindful Living is a digital platform designed to guide individuals on a journey 
 By offering valuable insights, instructional videos, and expert guidance, Mindful Living empowers users to embark on a journey of self-discovery and personal growth. Whether you're a beginner exploring mindfulness for the first time or an experienced practitioner looking to deepen your practice, our project serves as a supportive and inclusive community dedicated to fostering holistic well-being and inner peace.
 
 
-![Laptop View](https://github.com/alexkalisz/Mindful-Living/blob/main/display.png?raw=true)
+![Laptop View](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/display.png?raw=true)
 
 
 ## Features
@@ -15,44 +15,44 @@ By offering valuable insights, instructional videos, and expert guidance, Mindfu
 - Featured on all pages for easy navigation.
 - Links to the Home page, Mondfilness Practices, Tecjnique Lessons and Sign Up page.
 
-![Navigation Bar](https://github.com/alexkalisz/Mindful-Living/blob/main/navigation%20bar.png)
+![Navigation Bar](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/navigation%20bar.png)
 
 ### Landing Page
 - Eye-catching photograph with text overlay showcasing relevant locations.
 
-![Landing Page](https://github.com/alexkalisz/Mindful-Living/blob/main/landing%20image.png)  
+![Landing Page](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/landing%20image.png)  
 
 
 ### The Benefits Section
 - Highlights the benefits of joining Mindfulness and Yoga practices.
 - Encourages users to consider mindfilness as a way of life.
 
-![Benefits Section](https://github.com/alexkalisz/Mindful-Living/blob/main/Benefits%20Section.png)
+![Benefits Section](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/Benefits%20Section.png)
 
 
 ### Meetup Times Section
 - Displays meetup schedules and locations.
 - Keeps users informed.
 
-![Meetup Times](https://github.com/alexkalisz/Mindful-Living/blob/main/Meetup%20Times.png)![image]
+![Meetup Times](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/Meetup%20Times.png)![image]
 
 ### Footer
 - Includes links to Mindful Living social media profiles for easy connectivity.
 - Encourages users to stay connected and engaged.
 
-![Footer](https://github.com/alexkalisz/Mindful-Living/blob/main/Footer.png)
+![Footer](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/Footer.png)
 
 ### Mindfulness Practices
 This section introduces mindfulness as the practice of being present in the moment without judgment. It explains the concept of paying attention to thoughts, feelings, sensations, and the environment with openness and curiosity, leading to greater awareness and resilience in facing life's challenges.
 The page explores different ways of mindful breathing, body scan, techniques, Mindful Walking and Yoga practices techniques.
 
-![Practices](https://github.com/alexkalisz/Mindful-Living/blob/main/practices.png)
+![Practices](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/practices.png)
 
 ### Technique Lessons
 
 This section explores our instructional videos covering key mindfulness practices. From breath awareness to body scans, mindful walking, mindful eating, and yoga poses, each tutorial offers practical guidance for deepening your mindfulness journey. Whether you're new to mindfulness or seeking to enhance your practice, these videos provide valuable tools for cultivating presence and well-being in daily life.
 
-![Lessons](https://github.com/alexkalisz/Mindful-Living/blob/main/yoga%20poses.png)
+![Lessons](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/yoga%20poses.png)
 
 
 ### Signup
@@ -60,7 +60,7 @@ This section explores our instructional videos covering key mindfulness practice
 This section offers an effortless pathway to begin your mindfulness, yoga, or guided walk journey. With just a few clicks, you can indicate your interest in any of these activities and join our vibrant community. Simply select your preferred activity - whether it's delving into mindfulness practices, exploring the nuances of yoga, or enjoying mindful walks in nature. User must provide your full name and email address to complete the sign-up process.
 
 
-![Signup](https://github.com/alexkalisz/Mindful-Living/blob/main/signup.png)
+![Signup](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/signup.png)
 
 ### Testing
 
@@ -80,7 +80,7 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 - CSS -  No errors were returned when passing official (Jigsaw) validator
 - Accesibility - Colors and Fonts chosen are easy to read and accesible by running through lighthouse in devtools
 
-![Performance](https://github.com/alexkalisz/Mindful-Living/blob/main/performance.png)
+![Performance](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/performance.png)
 
 
 ### Unfixed bugs
