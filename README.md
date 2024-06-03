@@ -64,17 +64,11 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 
 ### Testing
 
-- Page tested and works in browser Chrome, Firefox, Safari, Brave
+- Page tested and works in browser Chrome, Firefox, Safari, Brave Browsers
 - Pages are responsive and functional on all screen sizes using dev tool bar
 - Navigation header, footer, sing up , videos in Technique Lessons section  are readable and easy to navigate.
-- Sign up form requites  entry in all fields  and email field accepts only email address
+- Sign up form requites entry in all fields  and email field accepts only email address.
 
-### Bugs
-
-- When deployed project the footer and header section lost its style, that was caused by wrongly placed curly brackets in styles.css
-- Formating document showed where the problem was , placing the curly brackets in the right place soled it.
-
-   
 ### Validator Testing
 - HTML - No errors were returned when passing official W3C validator
 - CSS -  No errors were returned when passing official (Jigsaw) validator
@@ -82,6 +76,10 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 
 ![Performance](https://github.com/alexkalisz/Mindful-Living/blob/main/assets/images/performance.png)
 
+### Bugs
+
+- When deployed project the footer and header section lost its style, that was caused by wrongly placed curly brackets in styles.css
+- Formating document showed where the problem was , placing the curly brackets in the right place soled it.
 
 ### Unfixed bugs
   No unfixed bugs
