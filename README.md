@@ -86,8 +86,17 @@ This section offers an effortless pathway to begin your mindfulness, yoga, or gu
 ### Unfixed bugs
   No unfixed bugs
 
+### Deployment
+- Website was deployed to GitHub, steps of deployment:
+1. Go to Settings tab in the GitHub repository.
+2. Clock Pages on the left side of the screen.
+3. Using drop down menu in Source section - choose Master Branch.
+4. Swllection of Master Branch will automatically refresh the page and shoe ribbon display to confirm succesful deployment.
+
 ### Credits
-The codes to create this project were taken from Love Running project
+The codes to create this project were taken from 
+- Love Running project.
+- Stackoverflow "https://stackoverflow.com/questions/15384077/how-to-add-a-video-into-html"
 
 ### Media
 - The images used are Open Source images
